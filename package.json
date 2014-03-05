@@ -1,7 +1,7 @@
 {
-  "name": "coffeeify",
-  "version": "0.4.1",
-  "description": "browserify v2 plugin for coffee-script with support for mixed .js and .coffee files",
+  "name": "browserify-livescript",
+  "version": "0.0.1",
+  "description": "browserify v2 plugin for livescript",
   "main": "index.js",
   "dependencies": {
     "through": "~2.2.0",
@@ -16,21 +16,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/substack/coffeeify.git"
+    "url": "git://github.com/coachshea/browserify-livescript.git"
   },
-  "homepage": "https://github.com/substack/coffeeify",
+  "homepage": "https://github.com/coachshea/browserify-livescript",
   "keywords": [
-    "coffee-script",
+    "livescript",
     "browserify",
     "v2",
-    "js",
     "plugin",
     "transform"
   ],
   "author": {
-    "name": "James Halliday",
-    "email": "mail@substack.net",
-    "url": "http://substack.net"
+    "name": "John Shea"
   },
   "license": "MIT"
 }
