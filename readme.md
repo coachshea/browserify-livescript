@@ -1,2 +1,2 @@
 #browserify-livescript
-browserify -t browserify-livescript file > output.js
+browserify -t browserify-livescript file.ls > output.js
