@@ -8,7 +8,7 @@ function compile(file, data) {
 }
 
 function isLive (file) {
-    return /.ls$/.test(file);
+    return /.*\.ls$/.test(file);
 }
 
 module.exports = function (file) {
