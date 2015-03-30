@@ -4,8 +4,8 @@
   "description": "browserify v2 plugin for livescript",
   "main": "index.js",
   "dependencies": {
-    "through": "~2.2.0",
-    "LiveScript": "~1.2.0"
+    "through": "*",
+    "LiveScript": "*"
   },
   "devDependencies": {
     "tap": "~0.4.0",
