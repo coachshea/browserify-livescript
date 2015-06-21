@@ -1,4 +1,4 @@
-var ls = require('LiveScript');
+var ls = require('livescript');
 var through = require('through');
 
 function compile(file, data) {
