@@ -2,9 +2,13 @@ var ls = require('livescript');
 var through = require('through');
 
 function compile(file, data) {
-    var compiled = ls.compile(data, { bare: true });
+    var compiled = ls.compile(data, {
+      bare: true,
+      map: 'embedded',
+      filename: file
+    });
 
-    return compiled + '\n';
+    return compiled.code + '\n';
 }
 
 function isLive (file) {
