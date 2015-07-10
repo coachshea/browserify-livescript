@@ -1,0 +1,24 @@
+---
+  name: "browserify-livescript"
+  version: "0.2.2"
+  description: "browserify v2 plugin for livescript"
+  main: "index.js"
+  dependencies: 
+    through: "*"
+    livescript: "~1.4.0"
+  devDependencies: 
+    browserify: "~2.4.0"
+  repository: 
+    type: "git"
+    url: "https://github.com/coachshea/browserify-livescript.git"
+  homepage: "https://github.com/coachshea/browserify-livescript"
+  keywords: 
+    - "livescript"
+    - "sourcemap"
+    - "browserify"
+    - "v2"
+    - "browserify-transform"
+  author: 
+    name: "John Shea"
+  license: "MIT"
+
