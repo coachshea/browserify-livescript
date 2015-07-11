@@ -1,7 +1,8 @@
 # browserify-livescript
 
-browserify-livescript is an npm module that allows livescript files to be
-seemlessly integrated into a project through
+browserify-livescript is an npm module that allows
+[livescript](https://github.com/gkz/LiveScript) files to be seemlessly
+integrated into a project through
 [browserify](https://github.com/substack/node-browserify.git). If you are not
 familiar with [browserify](https://github.com/substack/node-browserify.git), I
 strongly encourage you to read up. 
