@@ -1,11 +1,11 @@
 {
   "name": "browserify-livescript",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "browserify v2 plugin for livescript",
   "main": "index.js",
   "dependencies": {
-    "through": "*",
-    "livescript": "~1.4.0"
+    "livescript": "latest",
+    "through": "*"
   },
   "devDependencies": {
     "browserify": "~2.4.0"
